@@ -1,0 +1,106 @@
+
+Bearing:
+    Name: bearing 10mm
+    Description: >
+        This is lots of text
+        about some screws?
+    Specs:
+        Ø in: 3mm    
+        Ø out: 10mm
+        
+    Suppliers:
+        RS:
+            PartNo: 618-9884
+            Link: https://befr.rs-online.com/web/p/ball-bearings/6189884?redirect-relevancy-data=7365617263685F636173636164655F6F726465723D31267365617263685F696E746572666163655F6E616D653D4931384E525353746F636B4E756D626572267365617263685F6D617463685F6D6F64653D6D61746368616C6C267365617263685F7061747465726E5F6D6174636865643D5E2828282872737C5253295B205D3F293F285C647B337D5B5C2D5C735D3F5C647B332C347D5B705061415D3F29297C283235285C647B387D7C5C647B317D5C2D5C647B377D29292924267365617263685F747970653D52535F53544F434B5F4E554D424552267365617263685F77696C645F63617264696E675F6D6F64653D4E4F4E45267365617263685F6B6579776F72643D36313839383834267365617263685F6B6579776F72645F6170703D3631383938383426
+       
+
+M3x12CHC:
+    Name: M3x12 CHC screw black
+    Description: >
+      
+
+    Specs:
+        Thread Size: M3
+        Length: 12mm
+        Head Shape: Hex Socket Cap
+        Material: Steel
+        Finish: Black, Self-Colour
+        Thread Type: Metric
+        
+    Suppliers:
+        RS:
+            PartNo: 467-9802
+            Link: https://befr.rs-online.com/web/p/socket-screws/4679802
+            
+M3x6:
+    Name: M3x6 Pan Steel Machine Screws DIN 7985Z
+    Description:
+    
+    Specs:
+        Thread Size: M3
+        Length: 6mm
+        Head Shape: Round Cap
+        Material: Steel
+        Thread Type: Metric
+        
+    Suppliers:
+        RS:
+            PartNo: 560-580
+            Link: https://uk.rs-online.com/web/p/machine-screws/0560580?searchId=7490213b-4339-4d40-a498-d6648054c459&gb=s
+
+            
+Servo:
+    Name: Servo Parallax Inc 4
+    Description: 6 V 140 mA Servo Motor, 27 Ncm Max Output Torque 
+           
+    Suppliers:
+        RS:
+            PartNo: 781-3058
+            Link: https://befr.rs-online.com/web/p/servo-motors/7813058
+
+Heat_Shrink:
+    Name: RS PRO Heat Shrink Tubing
+    Description: Black 2.4mm Sleeve Dia. x 10m Length 2:1 Ratio 
+           
+    Suppliers:
+        RS:
+            PartNo: 700-4624
+            Link: https://uk.rs-online.com/web/p/heat-shrink-tubing/7004624?searchId=222870df-40eb-45f3-b95a-6bf57d72900d&gb=s
+            
+M2x6:
+    Name: M2 Pan Head M2x6
+    Description: Pan A2 304 Stainless Steel Machine Screws DIN 7985
+           
+    Suppliers:
+        RS:
+            PartNo: 528-693
+            Link: https://befr.rs-online.com/web/p/machine-screws/0528693
+
+Pipe:
+    Name: Pipe 0,040"
+    Description: Tuyaux, PharMed BPT
+           
+    Suppliers:
+       VWR:
+            PartNo: 228-1702
+            Link: https://be.vwr.com/store/catalog/product.jsp?catalog_number=228-1702
+
+Lemo:
+    Name: Lemo FGG.0B.305.CLAD52Z
+    Description: Connecteur circulaire, 0B Series, Fiche à montage sur câble, 5 Contact(s), Broche à souder
+           
+    Suppliers:
+       FARNELL:
+            PartNo: 3817258
+            Link: https://be.farnell.com/fr-BE/lemo/fgg-0b-305-clad52z/fiche-s0-5-voies-5mm/dp/3817258?ost=3817258
+            
+cable:
+    Name: Multicore Cable
+    Description: Unitronic® LiYCY, Screened, 5 Core, 24 AWG, 0.25 mm², 164 ft, 50 m
+           
+    Suppliers:
+       FARNELL:
+            PartNo: 1204281
+            Link: https://uk.farnell.com/lapp-kabel/0034405/cable-liycy-5core-0-25mm-50m/dp/1204281?ost=1204281
+
+
