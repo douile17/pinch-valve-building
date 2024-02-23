@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pinch Valve Documentation </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+                  <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #2d5baa !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #2d5baa;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper header-wrapper" >
+        <div class=header-text>
+   
+    <h1 class="site-title">Pinch Valve Documentation </h1>
+    <p class="affiliation">MiPI TERRA</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        Pinch Valve Documentation 
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./REQUIREMENTS.html">
+        1-  REQUIREMENTS
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./Assembly.html">
+        2-  Parts Assembly
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./Electrical_assembly.html">
+        3- Electrical assembly
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <div class="pagebom">
+<h3 id="part">Parts</h3>
+<ul>
+<li>1 <a Class="bom" href="Parts/Bearing.html">bearing</a> </li>
+<li>1 <a Class="bom" href="Parts/M3x12CHC.html">M3x12 CHC</a> </li>
+<li>4 <a Class="bom" href="Parts/M3x6.html">M3x6</a> </li>
+<li>1 <a Class="bom" href="Parts/Servo.html">servo motor</a> </li>
+</ul>
+<h3 id="tool">Tools</h3>
+<ul>
+<li>1 <a Class="missing" href="missing">allen key</a> </li>
+<li>1 <a Class="missing" href="missing">screw driver</a> </li>
+<li>1 <a Class="missing" href="missing">wire cutter</a> </li>
+</ul>
+</div>
+<h1 id="2-parts-assembly">2-  Parts Assembly</h1>
+<h2 class="page-step" id="cam--bearing">Step 1: Cam &amp; Bearing</h2>
+<ul>
+<li>Insert the <a href="Parts/Bearing.html">bearing</a> into the rotary <a href="3d_models/cam.html" title="">cam.stl</a> </li>
+</ul>
+<!-- You can drag and drop your images directly here and use this template -->
+
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/parts_assembly/1_bearing_cam.png" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/parts_assembly/2_bearing_cam.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show0" src="images/parts_assembly/1_bearing_cam.png" alt=""/></div>
+<h2 class="page-step" id="clamp">Step 2: Clamp</h2>
+<ul>
+<li>Place the  <a href="3d_models/clamp.html" title="">clamp.stl</a> into the <a href="3d_models/main_part.html" title="">main part.stl</a></li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/parts_assembly/1_linear_cam.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/parts_assembly/2_linear_cam.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show1" src="images/parts_assembly/1_linear_cam.jpg" alt=""/></div>
+<h2 class="page-step" id="secure-rotary-cam">Step 3: Secure Rotary Cam</h2>
+<ul>
+<li>Insert the screws <a href="Parts/M3x12CHC.html">M3x12 CHC</a> socket head cap screw to secure the rotary cam onto the main component with an <a Class="missing" href="missing">allen key</a> .</li>
+</ul>
+<div class="info-block">
+<p><strong>Note</strong> </p>
+<p>You must screw directly into the plastic.</p>
+</div>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/parts_assembly/1_screw_cam.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/parts_assembly/2_screw_cam.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show2" src="images/parts_assembly/1_screw_cam.jpg" alt=""/></div>
+
+<h2 class="page-step" id="servo-motor">Step 4: Servo Motor</h2>
+<ul>
+<li>Take the <a href="Parts/Servo.html">servo motor</a>  and reduce the size of the blades with a <a Class="missing" href="missing">wire cutter</a> to ensure a proper fit with the rotary cam coupling.</li>
+</ul>
+<p><img alt="" src="images/parts_assembly/blades_servo.jpg" title="" /></p>
+<h2 class="page-step" id="secure-servo-motor">Step 5: Secure servo motor</h2>
+<ul>
+<li>Screw the servo motor onto the main part using <a href="Parts/M3x6.html">M3x6</a> screws x4 and  <a Class="missing" href="missing">allen key</a> or  <a Class="missing" href="missing">screw driver</a> depending on the type of screws used.</li>
+</ul>
+<div class="info-block">
+<p><strong>Note</strong> </p>
+<p>You must screw directly into the plastic</p>
+</div>
+<p><img alt="" src="images/parts_assembly/servo_on_mPart.jpg" title="" /></p>
+<ul>
+<li>Remove the four screws from the servo motor casing.</li>
+</ul>
+<div class="caution-block">
+<p><strong>Caution</strong> </p>
+<p>Do not discard the four screws as we will reuse them in the next step.</p>
+</div>
+<p><img alt="" src="images/parts_assembly/remove_cap_servo.jpg" title="" /></p>
+<hr />
+<p><a href="REQUIREMENTS.html">Previous page</a> | <a href="Electrical_assembly.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+    <p class="email">Contact: <a href="mailto:andrew.zicler@gmail.com">andrew.zicler@gmail.com</a></p>
+
+    </div>
+</footer></body>
+</html>

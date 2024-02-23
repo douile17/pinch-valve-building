@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pinch Valve Documentation </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+                  <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #2d5baa !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #2d5baa;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper header-wrapper" >
+        <div class=header-text>
+   
+    <h1 class="site-title">Pinch Valve Documentation </h1>
+    <p class="affiliation">MiPI TERRA</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        Pinch Valve Documentation 
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./REQUIREMENTS.html">
+        1-  REQUIREMENTS
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./Assembly.html">
+        2-  Parts Assembly
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./Electrical_assembly.html">
+        3- Electrical assembly
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <div class="pagebom">
+<h3 id="part">Parts</h3>
+<ul>
+<li>1 <a Class="bom" href="Parts/cable.html">cable</a> </li>
+<li>1 <a Class="bom" href="Parts/Heat_Shrink.html">heat shrink</a> </li>
+<li>1 <a Class="bom" href="Parts/Lemo.html">LEMO connector</a> </li>
+<li>1 <a Class="bom" href="Parts/M2x6.html">M2x6</a> </li>
+</ul>
+<h3 id="tool">Tools</h3>
+<ul>
+<li>1 <a Class="missing" href="missing">soldering iron</a> </li>
+<li>1 <a Class="missing" href="missing">stripping pliers</a> </li>
+<li>1 <a Class="missing" href="missing">wire cutter</a> </li>
+</ul>
+</div>
+<h1 id="3-electrical-assembly">3- Electrical assembly</h1>
+<h2 class="page-step" id="led">Step 1: Led</h2>
+<ul>
+<li>Cut the servo motor wires with a <a Class="missing" href="missing">wire cutter</a> and retrieve the cable gland for further steps, then insert the LED into its designated slot.</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/parts_assembly/wire_cut.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/parts_assembly/led_cut_wires.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show0" src="images/parts_assembly/wire_cut.jpg" alt=""/></div>
+<!-- You can drag and drop your images directly here and use this template -->
+
+<h2 class="page-step" id="preparation-of-the-servo-cap">Step 2: Preparation of the servo cap</h2>
+<ul>
+<li>Insert the <a href="Parts/cable.html">cable</a> into the hole of the <a href="3d_models/servo_cap.html" title="">servo cap.stl</a>, and pull it sufficiently to strip it. Strip the cable 2.5 cm with a <a Class="missing" href="missing">stripping pliers</a>. </li>
+</ul>
+<div class="caution-block">
+<p><strong>Caution</strong> </p>
+<p>Careful not to cut the strands inside</p>
+</div>
+<p><img alt="" src="images/parts_assembly/wire_cap.jpg" title="" /></p>
+<h2 class="page-step" id="solder-onto-the-pcb">Step 3: Solder onto the PCB</h2>
+<ul>
+<li>Cut the LED cables so they reach the bottom of the PCB compartment of the servo motor.</li>
+<li>Strip and solder the wires as shown in the photo with a <a Class="missing" href="missing">soldering iron</a> to replace the original wires: Black to Grey, Red to Brown, and White to White.</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/parts_assembly/1_servo_circuit.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/parts_assembly/2_servo_circuit.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/parts_assembly/wires_soldering.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show1" src="images/parts_assembly/1_servo_circuit.jpg" alt=""/></div>
+<h2 class="page-step" id="led-wires">Step 4: Led wires</h2>
+<ul>
+<li>Ensure that you have reattached the cable gland from the servo motor wires onto the LED cables. Solder the red LED cable to the yellow cable, then solder the black cable to the green one, securing the connections with <a href="Parts/Heat_Shrink.html">heat shrink</a> tubing.</li>
+</ul>
+<p><img alt="" src="images/parts_assembly/soldering_led.jpg" title="" /></p>
+<ul>
+<li>Secure the servo cap onto the servo motor using the four screws previously retained.</li>
+</ul>
+<p><img alt="" src="images/parts_assembly/cap_secured.jpg" title="" /></p>
+<ul>
+<li>Screw the <a href="3d_models/cable_clamp.html" title="">cable clamp.stl</a> in place using the two <a href="Parts/M2x6.html">M2x6</a> screws. </li>
+</ul>
+<p><img alt="" src="images/parts_assembly/wire_secure.jpg" title="" /></p>
+<h2 class="page-step" id="solder-the-connector">Step 5: Solder the connector</h2>
+<ul>
+<li>Strip the end of the 5-strand cable to approximately 1cm.</li>
+<li>Solder the strands of the cable onto the pins of the <a href="Parts/Lemo.html">LEMO connector</a> following the diagram.</li>
+</ul>
+<div class="warning-block">
+<p><strong>Warning</strong> </p>
+<p>Don't forget to insert all the parts of the lemo connector on the cable before soldering the wires. </p>
+</div>
+<ul>
+<li>Then tighten the connector's clamping screw to close it.</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/parts_assembly/pvalve_elec_plan.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/parts_assembly/pic_connector.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show2" src="images/parts_assembly/pvalve_elec_plan.jpg" alt=""/></div>
+<h2 class="page-step" id="tadam-">Step 6: Tadam !!</h2>
+<p><img alt="" src="images/parts_assembly/pvalve.jpg" title="" /></p>
+<hr />
+<p><a href="Assembly.html">Previous page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+    <p class="email">Contact: <a href="mailto:andrew.zicler@gmail.com">andrew.zicler@gmail.com</a></p>
+
+    </div>
+</footer></body>
+</html>
