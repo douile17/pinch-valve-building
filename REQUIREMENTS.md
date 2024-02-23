@@ -12,7 +12,7 @@
 
 ## Settings: {pagestep}
  
-* Plastic: [PETG](https://www.prusa3d.com/fr/categorie/petg/)
+* Plastic: [PETG](https://www.prusa3d.com/fr/produit/prusament-petg-carbon-fiber-black-1kg/)
 * Infil: 60%
 * Solid layers: 
     * Top: 6
