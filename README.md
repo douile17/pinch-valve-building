@@ -1,21 +1,31 @@
-# This project is documented with GitBuilding
+# Index
 
-## What is GitBuilding
+<a href=""><img src="images/MainPicture.jpg" alt="drawing" style="width:700px;"/></a>
 
-GitBuilding is an OpenSource project for documenting hardware projects with minimal
-effort, so you can stop writing and GitBuilding. GitBuilding is a python program that
-works on Windows, Linux, and MacOS. More information on the GitBuilding project, or how
-to install GitBuilding please see the [GitBuilding website](http://gitbuilding.io)
 
-## How do I edit the documentation?
+**Introduction:**
 
-To edit the documentation you do not need to install anything, the documentation files can
-be opened in a plain text editor such as Windows Notepad, Notepad++, gedit, VS Code, etc.
-We recommend installing GitBuilding to preview any changes to the documentation.
-GitBuilding also comes with a browser-based editor that has a live display of the final HTML documentation.
+Explore the future of fluid regulation with our Pinch Valve 3D, meticulously crafted to seamlessly integrate with the Multistat. This economical valve, entirely 3D-printed with cost-effective components, provides a high-performance solution tailored to your machine.
+This pinch valve is compatible with the following pipes:  [Click here](Parts.yaml#Pipe){Qty: 1} 
 
-If you have ever used [markdown](https://www.markdownguide.org/basic-syntax/) you will
-notice that the files you are editing are markdown files. GitBuilding uses an extended
-markdown syntax (that we call BuildUp). This allows you to keep track of parts in the
-documentation. More detailed documentation is available on the
-[GitBuilding website](https://gitbuilding.io).
+
+
+
+**Key Features:**
+
+- **Optimal Compatibility with the Multistat:** Our Pinch Valve 3D seamlessly adapts to the Multistat, ensuring flawless synergy between the valve and the machine.
+
+- **Costs Controlled without Compromise:** Manufactured with budget-friendly components while maintaining reliable performance, this valve delivers quality fluid regulation at an affordable price.
+
+- **Quick and Simple Installation:** The design streamlines the installation process on the Multistat, saving your time and simplifying integration.
+
+- **Almost Nonexistent Wear:** After a year of continuous use without any issues, our Pinch Valve 3D demonstrates exceptional durability with virtually nonexistent wear.
+
+<a href=""><img src="images/EnclosureMultistatpValve.png" alt="drawing" style="width:700px;"/></a>
+
+**Choose Proven Reliability:**
+
+Opt for the Pinch Valve 3D with the Multistat and benefit from an economical solution that provides consistent and reliable fluid regulation. Explore this documentation to understand how our technology can enhance the performance of your Multistat without compromising your budget. Get ready for worry-free regulation, where durability and efficiency converge to propel your business to new heights.
+
+
+
